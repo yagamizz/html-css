@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Experimente aumentar e diminuir o tamanho da tela para ver a imagem mudando de tamanho</p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 875px)" srcset="imagens/paisagem-m.png">
+        <img src="imagens/paisagem-g.png" alt="imagem grande">
+    </picture>
+</body>
+</html>
